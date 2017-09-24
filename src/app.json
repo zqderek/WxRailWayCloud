@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/homes/index",
+        "pages/resources/resource",
+        "pages/login/login"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "好奇心日报",
+        "backgroundColor": "#f7f7f7",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    },
+    "tabBar":{
+        "color": "#33333",
+        "selectedColor":"#1bada6",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "position": "bottom",
+        "list":[{
+            "pagePath": "pages/homes/index",
+            "text":"home",
+            "iconPath": "images/1.png",
+            "selectedIconPath": "images/1.png"
+
+        },{
+            "pagePath": "pages/resources/resource",
+            "text":"任务源",
+            "iconPath": "images/2.png",
+            "selectedIconPath": "images/2.png"
+        }]
+    },
+    "debug": true
+}

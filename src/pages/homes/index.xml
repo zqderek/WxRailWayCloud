@@ -1,0 +1,5 @@
+<view class="container">
+	<text>home页面</text>
+	<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="directTologin"></button>
+</view>
